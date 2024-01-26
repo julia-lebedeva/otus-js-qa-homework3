@@ -1,4 +1,10 @@
- let getScores = (scores) => {
+ /**
+  * Получить сумму результатов всех студентов
+  * @param {object} scores - результаты студентов
+  * @returns {number} - сумма результатов всех студентов
+  */
+
+let getScores = (scores) => {
     let result = 0;
     for (let key in scores) {
       result = result + scores[key];
